@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,8 +9,8 @@ public class Player_Move : MonoBehaviour
     
     private Rigidbody2D _rb2d;
     private SpriteRenderer _sr;
-    
-    
+
+    private float _tempAxis;
     
     void Start()
     {
@@ -17,12 +18,16 @@ public class Player_Move : MonoBehaviour
         _sr = GetComponent<SpriteRenderer>();
     }
 
+    private void Update()
+    {
+        _tempAxis = Input.GetAxisRaw("Horizontal");
+    }
+
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
-        float temp = Input.GetAxisRaw("Horizontal");
-        _rb2d.velocity = new Vector2(speed*temp, _rb2d.velocity.y);
+        _rb2d.velocity = new Vector2(speed*_tempAxis*Time.fixedDeltaTime, _rb2d.velocity.y);
 
     }
 }

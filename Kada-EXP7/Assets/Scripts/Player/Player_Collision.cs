@@ -17,13 +17,13 @@ public class Player_Collision : MonoBehaviour
     {
         if (col.gameObject.CompareTag("StoneEssence"))
         {
-            _playerEssence.AddStoneEssence();
+            _playerEssence.AddStoneEssence(1);
             col.gameObject.SetActive(false);
         }
         
         if (col.gameObject.CompareTag("TreeEssence"))
         {
-            _playerEssence.AddTreeEssence();
+            _playerEssence.AddTreeEssence(1);
             col.gameObject.SetActive(false);
         }
     }

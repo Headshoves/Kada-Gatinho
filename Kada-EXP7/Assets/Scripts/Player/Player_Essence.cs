@@ -45,13 +45,13 @@ public class Player_Essence: MonoBehaviour
         _treeEssence -= qtd;
     }
 
-    public void AddStoneEssence()
+    public void AddStoneEssence(int qtd)
     {
-        _stoneEssence++;
+        _stoneEssence+= qtd;
     }
 
-    public void AddTreeEssence()
+    public void AddTreeEssence(int qtd)
     {
-        _treeEssence++;
+        _treeEssence+= qtd;
     }
 }
