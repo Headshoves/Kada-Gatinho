@@ -22,8 +22,7 @@ public class Player_Move : MonoBehaviour
     {
         _tempAxis = Input.GetAxisRaw("Horizontal");
     }
-
-    // Update is called once per frame
+    
     void FixedUpdate()
     {
 
