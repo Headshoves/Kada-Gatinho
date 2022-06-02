@@ -112,4 +112,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dca664e0f76b044eb8b874d31ffbcc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _oscilation: 0
+  _amplitude: 0.2
+  _frequency: 1

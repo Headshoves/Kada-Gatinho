@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class Player_Move : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float speedInGround;
     
     private Rigidbody2D _rb2d;
     private SpriteRenderer _sr;
+    private Player_Manager _playerManager;
 
     private float _tempAxis;
     
@@ -16,17 +17,33 @@ public class Player_Move : MonoBehaviour
     {
         _rb2d = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
+        _playerManager = Player_Manager.instance;
     }
 
     private void Update()
     {
         _tempAxis = Input.GetAxisRaw("Horizontal");
+        
+        if (_tempAxis<0)
+        {
+            _sr.flipX = true;
+        }
+        else if (_tempAxis>0)
+        {
+            _sr.flipX = false;
+        }
     }
     
     void FixedUpdate()
     {
+        if (_playerManager.CanDoAnything())
+        {
+            _rb2d.velocity = new Vector2(speedInGround*_tempAxis*Time.fixedDeltaTime, _rb2d.velocity.y);
+        }
+    }
 
-        _rb2d.velocity = new Vector2(speed*_tempAxis*Time.fixedDeltaTime, _rb2d.velocity.y);
-
+    private void OnDisable()
+    {
+        _rb2d.velocity = Vector2.zero;
     }
 }
