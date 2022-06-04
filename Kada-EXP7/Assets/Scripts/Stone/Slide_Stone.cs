@@ -15,16 +15,18 @@ public class Slide_Stone : MonoBehaviour
     private bool _canActive;
 
     private Player_Essence _playerEssence;
+    private Player_Manager _playerManager;
     
     void Start()
     {
         _playerEssence = Player_Essence.instance;
+        _playerManager = Player_Manager.instance;
     }
 
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K) && _canActive )
+        if (Input.GetKeyDown(KeyCode.K) && _canActive && _playerManager.CanDoAnything())
         {
             _stone.DOMove(_target.position, _timeToAction);
             _playerEssence.UseStoneEssence(_qtdEssence);

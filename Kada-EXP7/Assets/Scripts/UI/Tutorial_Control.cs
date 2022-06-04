@@ -12,6 +12,7 @@ public class Tutorial_Control : MonoBehaviour
     private Animator _animatorPopUp;
 
     private Player_Manager _playerManager;
+    private bool _tutorialOpen;
 
     private void Awake()
     {
@@ -27,7 +28,11 @@ public class Tutorial_Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButton("Jump") && _tutorialOpen)
+        {
+            CloseTutorial();
+            _tutorialOpen = false;
+        }
     }
 
     public void OpenTutorial(string info)
@@ -35,9 +40,10 @@ public class Tutorial_Control : MonoBehaviour
         _playerManager.DisablePlayerMovement();
         _popUpTutorial.transform.GetChild(0).GetComponent<Text>().text = info;
         _animatorPopUp.SetTrigger("Open");
+        _tutorialOpen = true;
     }
 
-    public void CloseTutorial()
+    private void CloseTutorial()
     {
         _playerManager.EnablePlayerMovement();
         _animatorPopUp.SetTrigger("Close");

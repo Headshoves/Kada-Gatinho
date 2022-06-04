@@ -19,11 +19,13 @@ public class Slide_Tree : MonoBehaviour
     private bool _canActive;
 
     private Player_Essence _playerEssence;
+    private Player_Manager _playerManager;
     
     void Start()
     {
         _treeStartPos = _tree.position;
         _playerEssence = Player_Essence.instance;
+        _playerManager = Player_Manager.instance;
 
         if (_grownUp)
         {
@@ -38,7 +40,7 @@ public class Slide_Tree : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J) && _canActive )
+        if (Input.GetKeyDown(KeyCode.J) && _canActive && _playerManager.CanDoAnything())
         {
             if (_grownUp)
             {

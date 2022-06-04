@@ -5,7 +5,10 @@ using UnityEngine;
 
 public class Call_Tutorial : MonoBehaviour
 {
+    [TextArea]
     [SerializeField] private string info;
+
+    private bool _active;
     
     public enum CallTutorialOptions
     {
@@ -29,6 +32,15 @@ public class Call_Tutorial : MonoBehaviour
             case CallTutorialOptions.Disable:
                 _tutorialControl.OpenTutorial(info);
                 break;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.CompareTag("Player") && callTutorialOptions == CallTutorialOptions.Collision && !_active)
+        {
+            _tutorialControl.OpenTutorial(info);
+            _active = true;
         }
     }
 }
