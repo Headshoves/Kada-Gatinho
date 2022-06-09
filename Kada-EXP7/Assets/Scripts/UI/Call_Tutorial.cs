@@ -26,12 +26,9 @@ public class Call_Tutorial : MonoBehaviour
 
     private void OnDisable()
     {
-
-        switch (callTutorialOptions)
+        if (callTutorialOptions == CallTutorialOptions.Disable)
         {
-            case CallTutorialOptions.Disable:
-                _tutorialControl.OpenTutorial(info);
-                break;
+            _tutorialControl.OpenTutorial(info);
         }
     }
 

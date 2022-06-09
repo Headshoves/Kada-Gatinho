@@ -20,12 +20,14 @@ public class Slide_Tree : MonoBehaviour
 
     private Player_Essence _playerEssence;
     private Player_Manager _playerManager;
+    private Fairy_ChangeColor _fairyChangeColor;
     
     void Start()
     {
         _treeStartPos = _tree.position;
         _playerEssence = Player_Essence.instance;
         _playerManager = Player_Manager.instance;
+        _fairyChangeColor = Fairy_ChangeColor.instance;
 
         if (_grownUp)
         {
@@ -62,6 +64,7 @@ public class Slide_Tree : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             _canActive = true;
+            _fairyChangeColor.InTreeRange();
         }
     }
 
@@ -70,6 +73,7 @@ public class Slide_Tree : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _canActive = false;
+            _fairyChangeColor.OutRange();
         }
     }
 }

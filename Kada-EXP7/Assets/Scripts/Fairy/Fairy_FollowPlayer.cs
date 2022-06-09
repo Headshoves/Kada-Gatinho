@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Fairy_FollowPlayer : MonoBehaviour
 {
+    
     [SerializeField] private Vector2 _offsetPlayer;
     [SerializeField] private float _interpolateAmount = 1;
     
@@ -22,6 +23,7 @@ public class Fairy_FollowPlayer : MonoBehaviour
     private bool _inRange;
     private bool idle;
     private float sinY;
+
     void Start()
     {
         _player = FindObjectOfType<Player_Manager>().transform;

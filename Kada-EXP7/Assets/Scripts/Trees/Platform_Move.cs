@@ -41,7 +41,7 @@ public class Platform_Move : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L)  && _canActive && _playerManager.CanDoAnything())
+        if (Input.GetKeyDown(KeyCode.J)  && _canActive && _playerManager.CanDoAnything())
         {
             if (_playerEssence.CanUseTreeEssence(_qtdEssence))
             {
