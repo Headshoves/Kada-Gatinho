@@ -9,6 +9,10 @@ TagManager:
   - DeathZone
   - Tree
   - Stone
+  - Platform
+  - PointA
+  - PointB
+  - Enemy
   layers:
   - Default
   - TransparentFX

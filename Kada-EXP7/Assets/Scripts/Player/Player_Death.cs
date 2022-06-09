@@ -24,5 +24,10 @@ public class Player_Death : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+        
+        if (col.gameObject.CompareTag("Enemy"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
