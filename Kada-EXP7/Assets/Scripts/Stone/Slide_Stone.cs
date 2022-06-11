@@ -19,8 +19,8 @@ public class Slide_Stone : MonoBehaviour
     
     void Start()
     {
-        _playerEssence = Player_Essence.instance;
-        _playerManager = Player_Manager.instance;
+        _playerEssence = FindObjectOfType<Player_Essence>();
+        _playerManager = FindObjectOfType<Player_Manager>();
     }
 
     

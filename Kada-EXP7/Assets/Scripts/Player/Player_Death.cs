@@ -6,28 +6,34 @@ using UnityEngine.SceneManagement;
 
 public class Player_Death : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    private Player_Manager _playerManager;
+    
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        _playerManager = GetComponent<Player_Manager>();
     }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.CompareTag("DeathZone"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StartCoroutine(Death());
         }
         
         if (col.gameObject.CompareTag("Enemy"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StartCoroutine(Death());
         }
+    }
+
+    private IEnumerator Death()
+    {
+        _playerManager.DisablePlayerMovement();
+
+        yield return new WaitForSeconds(1f);
+
+        transform.position = _playerManager._playerStartPos;
+        _playerManager.EnablePlayerMovement();
     }
 }

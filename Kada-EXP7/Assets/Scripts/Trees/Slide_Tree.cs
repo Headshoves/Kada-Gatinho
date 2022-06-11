@@ -25,9 +25,9 @@ public class Slide_Tree : MonoBehaviour
     void Start()
     {
         _treeStartPos = _tree.position;
-        _playerEssence = Player_Essence.instance;
-        _playerManager = Player_Manager.instance;
-        _fairyChangeColor = Fairy_ChangeColor.instance;
+        _playerEssence = FindObjectOfType<Player_Essence>();
+        _playerManager = FindObjectOfType<Player_Manager>();
+        _fairyChangeColor = FindObjectOfType<Fairy_ChangeColor>();
 
         if (_grownUp)
         {

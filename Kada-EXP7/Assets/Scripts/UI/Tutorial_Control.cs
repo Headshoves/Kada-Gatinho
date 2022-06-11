@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Tutorial_Control : MonoBehaviour
 {
-    public static Tutorial_Control instance;
 
     [SerializeField] private GameObject _popUpTutorial;
     private Animator _animatorPopUp;
@@ -14,18 +13,12 @@ public class Tutorial_Control : MonoBehaviour
     private Player_Manager _playerManager;
     private bool _tutorialOpen;
 
-    private void Awake()
-    {
-        instance = this;
-    }
-
     void Start()
     {
         _animatorPopUp = _popUpTutorial.GetComponent<Animator>();
-        _playerManager = Player_Manager.instance;
+        _playerManager = FindObjectOfType<Player_Manager>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetButton("Jump") && _tutorialOpen)
@@ -37,10 +30,13 @@ public class Tutorial_Control : MonoBehaviour
 
     public void OpenTutorial(string info)
     {
-        _playerManager.DisablePlayerMovement();
-        _popUpTutorial.transform.GetChild(0).GetComponent<Text>().text = info;
-        _animatorPopUp.SetTrigger("Open");
-        _tutorialOpen = true;
+        if (TryGetComponent(out _playerManager))
+        {
+            _playerManager.DisablePlayerMovement();
+            _popUpTutorial.transform.GetChild(0).GetComponent<Text>().text = info;
+            _animatorPopUp.SetTrigger("Open");
+            _tutorialOpen = true;
+        }
     }
 
     private void CloseTutorial()

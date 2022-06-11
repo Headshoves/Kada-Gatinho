@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 public class Player_Jump : MonoBehaviour
@@ -9,23 +10,25 @@ public class Player_Jump : MonoBehaviour
     [SerializeField] private float impulseJump;
     
     private Rigidbody2D _rb2d;
-    private Player_Collision _playerCollision;
+    private PlayerCollision _playerCollision;
     private Player_Manager _playerManager;
-    
-    
-    void Start()
+
+    private void Start()
     {
         _rb2d = GetComponent<Rigidbody2D>();
-        _playerCollision = Player_Collision.instance;
-        _playerManager = Player_Manager.instance;
+        _playerCollision = GetComponent<PlayerCollision>();
+        _playerManager = GetComponent<Player_Manager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && _playerManager.CanDoAnything())
+        if (Input.GetButtonDown("Jump"))
         {
-            Jump();
+            if (_playerManager.CanDoAnything())
+            {
+                Jump();
+            }
         }
     }
 

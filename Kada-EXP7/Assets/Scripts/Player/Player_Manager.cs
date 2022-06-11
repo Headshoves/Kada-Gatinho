@@ -3,31 +3,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Manager : MonoBehaviour
+public class Player_Manager :MonoBehaviour
 {
-    public static Player_Manager instance;
     
     private Player_Move _playerMove;
     private Player_Jump _playerJump;
 
     private bool canDoAnything;
 
-    private void Awake()
-    {
-        instance = this;
-    }
+    public Vector3 _playerStartPos;
 
-    void Start()
+    private void Start()
     {
-        _playerMove = GetComponent<Player_Move>();
         _playerJump = GetComponent<Player_Jump>();
+        _playerMove = GetComponent<Player_Move>();
         canDoAnything = true;
+        _playerStartPos = transform.position;
     }
 
     public void DisablePlayerMovement()
     {
-        _playerJump.enabled = false;
-        _playerMove.enabled = false;
+        if (TryGetComponent(out _playerJump))
+        {
+            _playerJump.enabled = false;
+        }
+
+        if (TryGetComponent(out _playerMove))
+        {
+            _playerMove.enabled = false;  
+        }
+        
         canDoAnything = false;
     }
     

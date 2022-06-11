@@ -6,19 +6,21 @@ using UnityEngine.UI;
 
 public class Player_Essence: MonoBehaviour
 {
-    public static Player_Essence instance;
-
+    
     [SerializeField] private Text _treeEssenceText;
     [SerializeField] private Text _stoneEssenceText;
+    [SerializeField] private Text _enemyEssenceText;
     
     private int _stoneEssence;
     private int _treeEssence;
+    private int _enemyEssence;
 
-    private void Awake()
+    private void Start()
     {
-        instance = this;
+        
         _treeEssenceText.text = "0";
         _stoneEssenceText.text = "0";
+        _enemyEssenceText.text = "0";
     }
 
     public bool CanUseStoneEssence(int qtd)
@@ -40,11 +42,27 @@ public class Player_Essence: MonoBehaviour
 
         return false;
     }
+    
+    public bool CanUseEnemyEssence(int qtd)
+    {
+        if (_enemyEssence >= qtd)
+        {
+            return true;
+        }
+
+        return false;
+    }
 
     public void UseStoneEssence(int qtd)
     {
         _stoneEssence -= qtd;
         _stoneEssenceText.text = _stoneEssence.ToString();
+    }
+    
+    public void UseEnemyEssence(int qtd)
+    {
+        _enemyEssence -= qtd;
+        _enemyEssenceText.text = _enemyEssence.ToString();
     }
     
     public void UseTreeEssence(int qtd)
@@ -63,5 +81,11 @@ public class Player_Essence: MonoBehaviour
     {
         _treeEssence+= qtd;
         _treeEssenceText.text = _treeEssence.ToString();
+    }
+    
+    public void AddEnemyEssence(int qtd)
+    {
+        _enemyEssence+= qtd;
+        _enemyEssenceText.text = _enemyEssence.ToString();
     }
 }

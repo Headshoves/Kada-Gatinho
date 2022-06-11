@@ -13,6 +13,8 @@ TagManager:
   - PointA
   - PointB
   - Enemy
+  - Checkpoint
+  - EnemyEssence
   layers:
   - Default
   - TransparentFX

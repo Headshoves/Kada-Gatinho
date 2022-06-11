@@ -104,12 +104,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4607378139532764751}
   - component: {fileID: 4607378139532764749}
-  - component: {fileID: 4607378139532764750}
   - component: {fileID: 4607378139532764739}
   - component: {fileID: 4607378139532764748}
+  - component: {fileID: 4462820605984999502}
   m_Layer: 0
   m_Name: EnemyBody
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -179,22 +179,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &4607378139532764750
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4607378139532764744}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!50 &4607378139532764739
 Rigidbody2D:
   serializedVersion: 4
@@ -231,6 +215,22 @@ MonoBehaviour:
   _pointA: {fileID: 4607378139006749057}
   _pointB: {fileID: 4607378138779757067}
   speed: 3
+--- !u!70 &4462820605984999502
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4607378139532764744}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.82, y: 1.69}
+  m_Direction: 0
 --- !u!1 &4607378139591188829
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4607378139591188829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.75, y: -1.24, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4607378139532764751}

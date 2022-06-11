@@ -17,7 +17,7 @@ public class Player_Move : MonoBehaviour
     {
         _rb2d = GetComponent<Rigidbody2D>();
         _sr = GetComponent<SpriteRenderer>();
-        _playerManager = Player_Manager.instance;
+        _playerManager = GetComponent<Player_Manager>();
     }
 
     private void Update()

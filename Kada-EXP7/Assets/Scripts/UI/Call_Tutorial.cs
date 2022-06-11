@@ -21,14 +21,22 @@ public class Call_Tutorial : MonoBehaviour
     
     void Start()
     {
-        _tutorialControl = Tutorial_Control.instance;
+        _tutorialControl = FindObjectOfType<Tutorial_Control>();
     }
 
     private void OnDisable()
     {
+        if (Application.isPlaying == false)
+        {
+            return;
+        }
         if (callTutorialOptions == CallTutorialOptions.Disable)
         {
-            _tutorialControl.OpenTutorial(info);
+            if (TryGetComponent(out _tutorialControl))
+            {
+                _tutorialControl.OpenTutorial(info);
+            }
+            
         }
     }
 

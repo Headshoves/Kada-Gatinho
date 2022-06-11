@@ -7,18 +7,13 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class Fairy_ChangeColor : MonoBehaviour
 {
-    public static Fairy_ChangeColor instance;
     
     [SerializeField] private Color _treeRange;
     [SerializeField] private Color _stoneRange;
+    [SerializeField] private Color _enemyRange;
     [SerializeField] private Color _passiveRange;
 
     private Light2D _light2D;
-
-    private void Awake()
-    {
-        instance = this;
-    }
 
     private void Start()
     {
@@ -39,6 +34,11 @@ public class Fairy_ChangeColor : MonoBehaviour
     public void InStoneRange()
     {
         _light2D.color = _stoneRange;
+    }
+
+    public void InEnemyRange()
+    {
+        _light2D.color = _enemyRange;
     }
 
 }
