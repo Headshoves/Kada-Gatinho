@@ -16,13 +16,13 @@ namespace Player
         private void Start()
         {
             _enemyStuck = transform.GetChild(0).GetComponent<EnemyStuck>();
-            _playerEssence = GetComponent<Player_Essence>();
+            _playerEssence = FindObjectOfType<Player_Essence>();
         }
 
         // Update is called once per frame
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.L) && _playerEssence.CanUseEnemyEssence(qtdEssence))
+            if (Input.GetButtonDown("Attack") && _playerEssence.CanUseEnemyEssence(qtdEssence))
             {
                 if (_canStuck && _playerInRange)
                 {

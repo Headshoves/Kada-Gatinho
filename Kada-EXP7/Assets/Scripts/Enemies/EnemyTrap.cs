@@ -14,11 +14,15 @@ public class EnemyTrap : MonoBehaviour
 
     private Vector2 _startPos;
     private Collider2D _col;
+    private Animator _animator;
+    private Vector3 target;
 
     private void Start()
     {
         _startPos = _trap.position;
         _col = GetComponent<Collider2D>();
+        _animator = GetComponent<Animator>();
+        target = transform.GetChild(0).transform.position;
     }
 
 
@@ -41,13 +45,14 @@ public class EnemyTrap : MonoBehaviour
     private IEnumerator ActiveTrap()
     {
         _col.enabled = false;
+        _animator.SetTrigger("Open");
         
         yield return new WaitForSeconds(_timeToActive);
 
-        _trap.DOMove(transform.position, _timeToUp);
+        _trap.DOMove(target, _timeToUp);
 
         yield return new WaitForSeconds(_resetTrap);
-
+        _animator.SetTrigger("Close");
         _trap.DOMove(_startPos, _timeToDown).OnComplete(() => _col.enabled = true);
     }
 

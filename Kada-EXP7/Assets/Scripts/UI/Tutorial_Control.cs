@@ -10,13 +10,12 @@ public class Tutorial_Control : MonoBehaviour
     [SerializeField] private GameObject _popUpTutorial;
     private Animator _animatorPopUp;
 
-    private Player_Manager _playerManager;
+   
     private bool _tutorialOpen;
 
     void Start()
     {
         _animatorPopUp = _popUpTutorial.GetComponent<Animator>();
-        _playerManager = FindObjectOfType<Player_Manager>();
     }
 
     void Update()
@@ -30,17 +29,21 @@ public class Tutorial_Control : MonoBehaviour
 
     public void OpenTutorial(string info)
     {
-        if (TryGetComponent(out _playerManager))
-        {
-            _playerManager.DisablePlayerMovement();
-            _popUpTutorial.transform.GetChild(0).GetComponent<Text>().text = info;
-            _animatorPopUp.SetTrigger("Open");
-            _tutorialOpen = true;
-        }
+        Player_Manager _playerManager;
+
+        _playerManager = FindObjectOfType<Player_Manager>();
+        
+        _playerManager.DisablePlayerMovement();
+        _popUpTutorial.transform.GetChild(0).GetComponent<Text>().text = info;
+        _animatorPopUp.SetTrigger("Open");
+        _tutorialOpen = true;
     }
 
     private void CloseTutorial()
     {
+        Player_Manager _playerManager;
+
+        _playerManager = FindObjectOfType<Player_Manager>();
         _playerManager.EnablePlayerMovement();
         _animatorPopUp.SetTrigger("Close");
     }

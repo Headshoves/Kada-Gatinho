@@ -42,7 +42,7 @@ public class Slide_Tree : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J) && _canActive && _playerManager.CanDoAnything())
+        if (Input.GetButtonDown("ActiveTree") && _canActive && _playerManager.CanDoAnything())
         {
             if (_grownUp)
             {

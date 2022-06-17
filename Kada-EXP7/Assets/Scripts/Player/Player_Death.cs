@@ -8,10 +8,12 @@ public class Player_Death : MonoBehaviour
 {
 
     private Player_Manager _playerManager;
+    private Player_Animations _animations;
     
     void Start()
     {
         _playerManager = GetComponent<Player_Manager>();
+        _animations = GetComponent<Player_Animations>();
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -30,6 +32,7 @@ public class Player_Death : MonoBehaviour
     private IEnumerator Death()
     {
         _playerManager.DisablePlayerMovement();
+        _animations.DeathAnim();
 
         yield return new WaitForSeconds(1f);
 

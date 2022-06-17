@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8926f484a12066e48b1dbb134d6ee752, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _qtdEssence: 1
+  qtdEssence: 1
 --- !u!1 &8460748219764374888
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,7 +111,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}

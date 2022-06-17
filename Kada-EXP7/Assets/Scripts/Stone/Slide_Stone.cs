@@ -26,7 +26,7 @@ public class Slide_Stone : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.L) && _canActive && _playerManager.CanDoAnything())
+        if (Input.GetButtonDown("ActiveStone") && _canActive && _playerManager.CanDoAnything())
         {
             _stone.DOMove(_target.position, _timeToAction);
             _playerEssence.UseStoneEssence(_qtdEssence);
