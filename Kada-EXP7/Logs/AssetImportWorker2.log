@@ -1,0 +1,1540 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.1766; Version 2009; 64bit' Language: 'pt' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49436
+Successfully changed project path to: C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7
+C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     4019 MB
+    Driver:   30.0.15.1215
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001960 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F4862030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB6DD50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A27020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF0D8C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEBF9460 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC0ADB0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EED808C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF528010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF528010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF53B220 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF54B960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEA7BC20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A3EB30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F36FB230 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF54B960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A0C020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A39A30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEE33C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEAB4010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3737430 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4790530 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF421010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F387A010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A3EB30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF55C1E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F35A5010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A3EB30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB164C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC52840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A4B640 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3F3C010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F35BB820 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEE33C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40B5C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40B5C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB65EC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F42FB6E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF55C5C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF55C5C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3BDB010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F374BE40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB01020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F35E6E40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A4B640 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40B5C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.017 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3347 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.7 MB.
+System memory in use after: 144.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3790.
+Total: 2.797800 ms (FindLiveObjects: 0.298500 ms CreateObjectMapping: 0.143200 ms MarkObjects: 2.240900 ms  DeleteObjects: 0.114100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animations/Player/Player.controller
+  artifactKey: Guid(707d4090c1b35bf45bbd7d611198ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player.controller using Guid(707d4090c1b35bf45bbd7d611198ecf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682ae9cb78dde3b8331d226e1b192877') in 0.177923 seconds
+  Import took 0.182869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Animations/Player/Player_Idle.anim
+  artifactKey: Guid(3b299866277fa0946b46f4ec86f85fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Idle.anim using Guid(3b299866277fa0946b46f4ec86f85fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70a0a6933c1355acae3be5f25f680e0') in 0.009358 seconds
+  Import took 0.016066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Animations/Player/Player_Death.anim
+  artifactKey: Guid(e45b4f9073d6fb84db24d0eb4e57f4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Death.anim using Guid(e45b4f9073d6fb84db24d0eb4e57f4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef21a1afcceb195f7b29c2d570f72bf') in 0.008290 seconds
+  Import took 0.013749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275EEBF6370 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3607020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000274640474B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBFB1750 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A2C820 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEBFA780 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBCBEF20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F82B4540 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56E9020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4B34020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF54B960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8642010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F42F6010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF54B960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF54B960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3B33010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000274640474B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEA33020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC088080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4C97010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBF0C8C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC090B00 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F41BC020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81F31B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B5CC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8374010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81F31B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5708430 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A2C820 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5421010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B32020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B32020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B32020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F41EC430 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F573C630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B60A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B4D40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6E8C410 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F36A7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7690080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBA421A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEFBC630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6EB2620 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.7 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3794.
+Total: 3.912900 ms (FindLiveObjects: 0.646900 ms CreateObjectMapping: 0.260400 ms MarkObjects: 2.855100 ms  DeleteObjects: 0.147700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019934 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F341B8B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DA71AA0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB65EC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3863F60 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB65EC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002746406E960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D9813C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F82B4540 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56E9020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7BB9030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56C5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56C5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7301010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7BB9030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56C5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3B33010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB65EC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEB65EC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56C5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7301010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5708F70 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D957420 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7301010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF05D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F68F3240 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87F1D0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5708F70 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEAB4010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002746406E960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4EC8020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F84CEA20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5421010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56C5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A28E40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002746406E960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87EDF0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87FB80 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBD93B50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF54B960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002746406E960 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3705260 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F84CEA20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 137.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3798.
+Total: 3.612800 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.219100 ms MarkObjects: 2.843500 ms  DeleteObjects: 0.095800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007692 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F341B8B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC8F4B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDD1A40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC3BA0C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F82B4540 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F700E010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81E5010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F385D220 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F36C4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F436A030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F52C9020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761EFEC720 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F385D220 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40E4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F540D030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B5AD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F700E010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B9D240 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81EDA20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4EC8020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEFBC630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F700E010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6839E40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81EDA20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B5AD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B5AD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6F54030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE5F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DDA4430 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8453D30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEFBC630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC1F4020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3802.
+Total: 3.097800 ms (FindLiveObjects: 0.572300 ms CreateObjectMapping: 0.188800 ms MarkObjects: 2.212100 ms  DeleteObjects: 0.123500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 618.182942 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(56465b7dc41422d44b53f1839ef3d9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(56465b7dc41422d44b53f1839ef3d9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7683a65dcf6e437508b6a64135e7daf0') in 0.562959 seconds
+  Import took 0.569168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.525911 seconds.
+  path: Assets/Prefabs/EnemyEssence.prefab
+  artifactKey: Guid(1d8cf0267d7a44d4691920fd1889a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyEssence.prefab using Guid(1d8cf0267d7a44d4691920fd1889a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cf57d357d688b86514c719bfc36f46') in 0.031596 seconds
+  Import took 0.038860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344117 seconds.
+  path: Assets/Prefabs/EnemyTrap.prefab
+  artifactKey: Guid(05bacaf4f3cd4cc4db7fcb84e417566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyTrap.prefab using Guid(05bacaf4f3cd4cc4db7fcb84e417566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f637f66d8599188bc585116863746cf') in 0.102573 seconds
+  Import took 0.107823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 168.357051 seconds.
+  path: Assets/Animations/Player/Player_Attack.anim
+  artifactKey: Guid(fbdc13db481ab9640b01afa92042ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Attack.anim using Guid(fbdc13db481ab9640b01afa92042ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c17481f300dffcec141d3604eb694c3') in 0.143327 seconds
+  Import took 0.149671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009144 seconds.
+  path: Assets/Animations/Player/Player_Attack.anim
+  artifactKey: Guid(fbdc13db481ab9640b01afa92042ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/Player_Attack.anim using Guid(fbdc13db481ab9640b01afa92042ef78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c17481f300dffcec141d3604eb694c3') in 0.003033 seconds
+  Import took 0.008464 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F6D51FD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7F626F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40D1020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC8FBF0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F36F6040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6D468E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD15460 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95E1C10 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81E5010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81F2B00 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF3D1020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8EB8040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40D1020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F36F6040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A44080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBEF5190 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A44080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC3FE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBCBBFC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B4B50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF421010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B49DD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F36F6040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8435090 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A8C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4F99010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8C59D30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF557980 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F960F820 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B4770 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95B4770 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F90CCF90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF3D1020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8458940 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F37057D0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5295020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8C59D30 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.1 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3851.
+Total: 2.899600 ms (FindLiveObjects: 0.307800 ms CreateObjectMapping: 0.129300 ms MarkObjects: 2.373500 ms  DeleteObjects: 0.088300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F6D51FD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A3D110 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBCB8010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC8E630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F84566B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6D4C450 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF50C320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F95E1C10 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81E5010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9093010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F81F2B00 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F76E5EE0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002762087A020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9734010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBCB8010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5295020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A44080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FB9955A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A44080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D5EB10 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBCBBFC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87EC00 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F79C6030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B44550 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8C70D40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8435090 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBB7D010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBCB8010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F960F820 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87F7A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87E630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F90CCF90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F76E5EE0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E070010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F84312B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8C70D40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3855.
+Total: 3.511900 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.216700 ms MarkObjects: 2.783500 ms  DeleteObjects: 0.169000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.704522 seconds.
+  path: Assets/Animations/Enemies/Enemy2/Enemy2.controller
+  artifactKey: Guid(b8f4b3bff846d0c4fb16a49937d2f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemies/Enemy2/Enemy2.controller using Guid(b8f4b3bff846d0c4fb16a49937d2f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f5ca9a60c38e89662085343ae3346f') in 0.027165 seconds
+  Import took 0.032550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086637 seconds.
+  path: Assets/Animations/Enemies/Enemy2/Enemy2.controller
+  artifactKey: Guid(b8f4b3bff846d0c4fb16a49937d2f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Enemies/Enemy2/Enemy2.controller using Guid(b8f4b3bff846d0c4fb16a49937d2f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f5ca9a60c38e89662085343ae3346f') in 0.004078 seconds
+  Import took 0.010546 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006769 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F4FB1030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4110260 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7F5D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC90330 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD31AC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6D44EC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD17620 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A69140 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F50F0790 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F82D4580 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F547D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F528D010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B9B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7F5D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD31AC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC088080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FF967B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC088080 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D5EB10 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276202F1320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87F5B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4B3C030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D4F88F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD31AC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A1F010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6EBE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DEA3020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87F5B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D87F5B0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F92C0BB0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7BB9030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F91DFA90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F37043E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC86E50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3859.
+Total: 2.847300 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.142100 ms MarkObjects: 2.308300 ms  DeleteObjects: 0.086600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007243 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002761D351030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F41F0C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBA2C040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC8ED70 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD31AC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6D475F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF50B060 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A0C020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F50F0790 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F82D4580 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F547D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F528D010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B9B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBA2C040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD31AC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D9D88F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC3FE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276202F1320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9611170 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D2F5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D4F9400 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE1DF50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD31AC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3858040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6EBE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761F814010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9611170 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9611170 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F92C0BB0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7BB9030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761F814010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F910ED10 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC86E50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3863.
+Total: 3.027700 ms (FindLiveObjects: 0.292700 ms CreateObjectMapping: 0.206600 ms MarkObjects: 2.404500 ms  DeleteObjects: 0.123000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007917 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000275F8CA9130 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F56B1030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E3FE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC918F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE1B010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5434BD0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF0D97E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3838020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51B4240 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F82D4580 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F547D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F528D010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B9B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E3FE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4F9D880 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8A3F0F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D74DFB0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC3FE020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276202F1320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F47A3520 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F818D010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D4F3070 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C36C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC282010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D19010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F68F9C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F97336F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F47A44A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F47A44A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F92C0BB0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FCFA020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F66F5100 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEA984E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C36C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3867.
+Total: 2.753900 ms (FindLiveObjects: 0.295700 ms CreateObjectMapping: 0.159500 ms MarkObjects: 2.215500 ms  DeleteObjects: 0.082300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002762179E010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DAB49E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40CC010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A3ECC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40CC010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5437300 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E179240 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DD74020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51B4240 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FB6E010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D924050 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F547D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B0C010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FB6E010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B9B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40CC010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D1FC90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9745B90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002762151DAC0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3B33010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276202F1320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C37BF0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D5DAA0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7629030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D5002A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEFBC630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC282010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8D5DAA0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F40CC010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3B02030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C37620 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C37050 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EED93020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6EC1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761FD03810 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEFBC630 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.0 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 4.047300 ms (FindLiveObjects: 0.354900 ms CreateObjectMapping: 0.178100 ms MarkObjects: 3.421700 ms  DeleteObjects: 0.091300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006523 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002761D8DC030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E7B4970 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F510A040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4A3F400 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F39F7260 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F543CE70 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F938BC00 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DD74020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B94050 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D924050 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F547D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5298AE0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B94050 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B9B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F510A040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8919920 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B94050 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8DD0010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F4C97010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027622A9C940 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8DD0010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3A0C020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276202F1320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F68695F0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC62850 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D2F5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D4FAA20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C36C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC282010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEC62850 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D8DC030 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EEFBE640 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6869400 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6869400 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3C3F020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F5298AE0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8F4B220 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800B50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C36C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.470 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.1 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3875.
+Total: 4.055800 ms (FindLiveObjects: 0.358400 ms CreateObjectMapping: 0.216600 ms MarkObjects: 3.362100 ms  DeleteObjects: 0.117500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007191 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002761DDA5310 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FC049100 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E963020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6F90480 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBAC5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3738DA0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBB844A0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DD74020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275FBDB7020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F51A5020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761EA37020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761EA37020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F547D020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027621D56010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761EA37020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8B9B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275EF10A840 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E963020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7AD3C90 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761EA37020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B4C510 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027623CAF1C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B4C510 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F3B33010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000276202F1320 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761F5024E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F525B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F8DD0010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6B492C0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F75D1040 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C36C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F74AF020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761EA37020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F525B020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761E963020 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9777B40 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761F5024E0 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761F501560 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761DE1DF50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027621D56010 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002761D31F000 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F9800D20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F6C36C20 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000275F7565C50 doesn't match image C:\Users\prisc\Documents\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.1 MB.
+System memory in use after: 143.2 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3879.
+Total: 2.896300 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.145900 ms MarkObjects: 2.364200 ms  DeleteObjects: 0.084800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 888.998047 seconds.
+  path: Assets/Scripts/Player/Player_Death.cs
+  artifactKey: Guid(d5cedfd64a37a7247a08dc6c21b1bfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player_Death.cs using Guid(d5cedfd64a37a7247a08dc6c21b1bfbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4684b085245a3a1e8199b6727e05c4e1') in 0.126461 seconds
+  Import took 0.131477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.685493 seconds.
+  path: Assets/Scripts/Player/Player_Manager.cs
+  artifactKey: Guid(cde1a6933d6c5974b8854756b01df0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/Player_Manager.cs using Guid(cde1a6933d6c5974b8854756b01df0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d985aa3d46c0ca8606ab70611c242d') in 0.008143 seconds
+  Import took 0.014394 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
