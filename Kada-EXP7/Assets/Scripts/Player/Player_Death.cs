@@ -9,6 +9,8 @@ public class Player_Death : MonoBehaviour
 
     private Player_Manager _playerManager;
     private Player_Animations _animations;
+
+    private bool die;
     
     void Start()
     {
@@ -18,14 +20,25 @@ public class Player_Death : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("DeathZone"))
+        if (col.gameObject.CompareTag("DeathZone") && !die)
         {
             StartCoroutine(Death());
+            die = true;
         }
         
-        if (col.gameObject.CompareTag("Enemy"))
+        if (col.gameObject.CompareTag("Enemy") && !die)
         {
             StartCoroutine(Death());
+            die = true;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Enemy") && !die)
+        {
+            StartCoroutine(Death());
+            die = true;
         }
     }
 
@@ -38,5 +51,6 @@ public class Player_Death : MonoBehaviour
 
         transform.position = _playerManager._playerStartPos;
         _playerManager.EnablePlayerMovement();
+        die = false;
     }
 }

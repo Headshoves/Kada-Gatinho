@@ -1,19 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 public class Player_Animations : MonoBehaviour
 {
     private Animator _animator;
+    private PlayerCollision _playerCollision;
     void Start()
     {
         _animator = GetComponent<Animator>();
+        _playerCollision = GetComponent<PlayerCollision>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !_playerCollision.IsInAir())
         {
             _animator.SetTrigger("Jump");
         }

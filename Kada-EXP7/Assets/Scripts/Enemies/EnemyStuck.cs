@@ -9,7 +9,7 @@ namespace Enemies
         private EnemyPatrol _enemyPatrol;
         void Start()
         {
-            _playerTrap = FindObjectOfType<PlayerTrap>();
+            _playerTrap = transform.GetComponentInParent<PlayerTrap>();
         }
         private void OnTriggerEnter2D(Collider2D col)
         {

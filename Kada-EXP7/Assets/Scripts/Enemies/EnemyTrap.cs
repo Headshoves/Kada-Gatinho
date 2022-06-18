@@ -48,12 +48,14 @@ public class EnemyTrap : MonoBehaviour
         _animator.SetTrigger("Open");
         
         yield return new WaitForSeconds(_timeToActive);
-
         _trap.DOMove(target, _timeToUp);
 
         yield return new WaitForSeconds(_resetTrap);
-        _animator.SetTrigger("Close");
         _trap.DOMove(_startPos, _timeToDown).OnComplete(() => _col.enabled = true);
+        
+        yield return new WaitForSeconds(_timeToDown);
+        _animator.SetTrigger("Close");
+        
     }
 
     

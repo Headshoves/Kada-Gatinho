@@ -8,7 +8,6 @@ public class Platform_Move : MonoBehaviour
 {
     [SerializeField] private Transform _pointA;
     [SerializeField] private Transform _pointB;
-    [SerializeField] private Transform _pointC;
     private Transform _pointAB_BC;
 
     [SerializeField] private float _duration;
@@ -21,6 +20,7 @@ public class Platform_Move : MonoBehaviour
 
     private Player_Essence _playerEssence;
     private Player_Manager _playerManager;
+    private Fairy_ChangeColor _fairyChangeColor;
     
     void Start()
     {
@@ -28,29 +28,34 @@ public class Platform_Move : MonoBehaviour
         
         _playerEssence = FindObjectOfType<Player_Essence>();
         _playerManager = FindObjectOfType<Player_Manager>();
-
-        if (!go)
-        {
-            _pointAB_BC.transform.position = _pointA.transform.position;
-        }
-        else
-        {
-            _pointAB_BC.transform.position = _pointC.transform.position;
-        }
+        _fairyChangeColor = FindObjectOfType<Fairy_ChangeColor>();
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.J)  && _canActive && _playerManager.CanDoAnything())
         {
-            if (_playerEssence.CanUseTreeEssence(_qtdEssence))
+            if (active)
             {
-                _playerEssence.UseTreeEssence(_qtdEssence);
-                go = !go;
-                active = true; 
+                _playerEssence.AddTreeEssence(_qtdEssence);
+                active = false;
             }
+            else
+            {
+                if (_playerEssence.CanUseTreeEssence(_qtdEssence))
+                {
+                    _playerEssence.UseTreeEssence(_qtdEssence);
+                    go = !go;
+                    active = true; 
+                }
+            }
+            
+            
         }
-
+        else if (Input.GetKeyDown(KeyCode.J)  && _canActive && active)
+        {
+            
+        }
     }
 
     
@@ -61,17 +66,9 @@ public class Platform_Move : MonoBehaviour
 
             if (go)
             {
-                active = false;
+                go = false;
                 _pointAB_BC.DOMove(_pointB.transform.position, _duration).OnComplete(() =>
-                    _pointAB_BC.DOMove(_pointC.transform.position, _duration));
-                
-            }
-            else
-            {
-                active = false;
-                _pointAB_BC.DOMove(_pointB.transform.position, _duration).OnComplete(() =>
-                    _pointAB_BC.DOMove(_pointA.transform.position, _duration));
-                
+                    _pointAB_BC.DOMove(_pointA.transform.position, _duration).OnComplete(()=> go = true));
             }
         }
     }
@@ -82,6 +79,7 @@ public class Platform_Move : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             _canActive = true;
+            _fairyChangeColor.InTreeRange();
         }
     }
 
@@ -90,6 +88,7 @@ public class Platform_Move : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _canActive = false;
+            _fairyChangeColor.OutRange();
         }
     }
 }

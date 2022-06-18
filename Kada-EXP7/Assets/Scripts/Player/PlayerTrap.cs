@@ -12,11 +12,13 @@ namespace Player
         private bool _playerInRange;
 
         [SerializeField] private int qtdEssence;
+        private Fairy_ChangeColor _fairyChangeColor;
 
         private void Start()
         {
             _enemyStuck = transform.GetChild(0).GetComponent<EnemyStuck>();
             _playerEssence = FindObjectOfType<Player_Essence>();
+            _fairyChangeColor = FindObjectOfType<Fairy_ChangeColor>();
         }
 
         // Update is called once per frame
@@ -42,6 +44,7 @@ namespace Player
             if (col.CompareTag("Player"))
             {
                 _playerInRange = true;
+                _fairyChangeColor.InEnemyRange();
             }
         }
 
@@ -50,6 +53,7 @@ namespace Player
             if (other.CompareTag("Player"))
             {
                 _playerInRange = false;
+                _fairyChangeColor.OutRange();
             }
         }
     }

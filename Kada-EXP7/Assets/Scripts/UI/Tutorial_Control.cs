@@ -20,7 +20,7 @@ public class Tutorial_Control : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButton("Jump") && _tutorialOpen)
+        if (Input.GetButton("Action") && _tutorialOpen)
         {
             CloseTutorial();
             _tutorialOpen = false;

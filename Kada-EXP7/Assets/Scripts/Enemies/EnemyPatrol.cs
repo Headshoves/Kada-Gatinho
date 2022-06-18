@@ -55,5 +55,24 @@ public class EnemyPatrol : MonoBehaviour
         {
             right = false;
         }
+
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            StartCoroutine(Stop());
+        }
+    }
+
+    private IEnumerator Stop()
+    {
+        float startSpeed = speed;
+        speed = 0;
+        yield return new WaitForSeconds(1f);
+        speed = startSpeed;
+
     }
 }
