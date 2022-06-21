@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3356610602454202653}
   - component: {fileID: 3356610602454202652}
-  - component: {fileID: 3356610602454202651}
+  - component: {fileID: 333632227}
+  - component: {fileID: 1199350626592952872}
   m_Layer: 3
   m_Name: StoneBridge
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3356610602454202654}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 14.4575, y: 2.5694, z: 1}
+  m_LocalPosition: {x: 0, y: -7.32, z: 0}
+  m_LocalScale: {x: 6.70695, y: 6.70695, z: 6.70695}
   m_Children: []
   m_Father: {fileID: 3356610603614182515}
   m_RootOrder: 0
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1eb5f912b2af70f45a8cbb748c887997, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,8 +84,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &3356610602454202651
-BoxCollider2D:
+--- !u!114 &333632227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3356610602454202654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d095dddd1a1d1934ab161fb4312fd126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info: OBRIGADO POR JOGAR O JOGUINHO!!!!
+  fim: 0
+--- !u!60 &1199350626592952872
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -100,15 +115,33 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.4, y: 0.72}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.8820567, y: -0.27992696}
+      - {x: 1.0600731, y: -0.19743146}
+      - {x: 1.1525137, y: 0.13755941}
+      - {x: 1.0799086, y: 0.2225868}
+      - {x: 0.64524674, y: 0.27752286}
+      - {x: 0.48987195, y: 0.22757766}
+      - {x: 0.22763252, y: 0.30249545}
+      - {x: 0.0024954686, y: 0.23506393}
+      - {x: -0.16522858, y: 0.28504568}
+      - {x: -0.46265993, y: 0.31251377}
+      - {x: -0.83407605, y: 0.29438713}
+      - {x: -1.0325801, y: 0.222986}
+      - {x: -1.1899999, y: 0.14999999}
+      - {x: -1.1899999, y: -0.01}
+      - {x: -1.12, y: -0.17999999}
+      - {x: -1.05, y: -0.26999998}
+      - {x: -0.98999995, y: -0.26999998}
+      - {x: -0.83, y: -0.24}
+      - {x: -0.036179066, y: -0.117650814}
 --- !u!1 &3356610603168466363
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: {fileID: 3356610603614182515}
   _stone: {fileID: 3356610602454202653}
-  _qtdEssence: 1
+  _qtdEssence: 5
   _timeToAction: 1
   _light2D: {fileID: 8635518313849437168}
 --- !u!61 &3356610603168466362
@@ -173,7 +206,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -8.95, y: 2.02}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -184,7 +217,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.13, y: 1.74}
   m_EdgeRadius: 0
 --- !u!1 &3356610603614182516
 GameObject:
@@ -242,7 +275,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8479703888036937602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -8.88, y: 1.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3356610603168466360}
