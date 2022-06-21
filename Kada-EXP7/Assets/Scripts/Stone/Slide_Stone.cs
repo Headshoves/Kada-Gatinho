@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class Slide_Stone : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Slide_Stone : MonoBehaviour
     [SerializeField] private int _qtdEssence;
     [SerializeField] private float _timeToAction;
     
+    [SerializeField] private Light2D _light2D;
 
     
     private bool _canActive;
@@ -39,6 +41,7 @@ public class Slide_Stone : MonoBehaviour
         if (col.CompareTag("Player"))
         {
             _canActive = true;
+            _light2D.enabled = true;
         }
     }
 
@@ -47,6 +50,7 @@ public class Slide_Stone : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             _canActive = false;
+            _light2D.enabled = false;
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class Platform_Move : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Platform_Move : MonoBehaviour
 
     [SerializeField] private float _duration;
     [SerializeField] private int _qtdEssence;
+    
+    [SerializeField] private Light2D _light2D;
 
     [SerializeField] private bool go;
     private bool active;
@@ -25,7 +28,8 @@ public class Platform_Move : MonoBehaviour
     void Start()
     {
         _pointAB_BC = transform;
-        
+        _pointAB_BC.position = _pointA.position;
+
         _playerEssence = FindObjectOfType<Player_Essence>();
         _playerManager = FindObjectOfType<Player_Manager>();
         _fairyChangeColor = FindObjectOfType<Fairy_ChangeColor>();
@@ -80,6 +84,7 @@ public class Platform_Move : MonoBehaviour
         {
             _canActive = true;
             _fairyChangeColor.InTreeRange();
+            _light2D.enabled = true;
         }
     }
 
@@ -89,6 +94,7 @@ public class Platform_Move : MonoBehaviour
         {
             _canActive = false;
             _fairyChangeColor.OutRange();
+            _light2D.enabled = false;
         }
     }
 }

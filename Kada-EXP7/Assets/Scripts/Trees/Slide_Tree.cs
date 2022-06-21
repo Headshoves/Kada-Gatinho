@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Experimental.Rendering.Universal;
 
 public class Slide_Tree : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Slide_Tree : MonoBehaviour
     private Player_Essence _playerEssence;
     private Player_Manager _playerManager;
     private Fairy_ChangeColor _fairyChangeColor;
+    [SerializeField] private Light2D _light2D;
     
     void Start()
     {
@@ -28,6 +30,7 @@ public class Slide_Tree : MonoBehaviour
         _playerEssence = FindObjectOfType<Player_Essence>();
         _playerManager = FindObjectOfType<Player_Manager>();
         _fairyChangeColor = FindObjectOfType<Fairy_ChangeColor>();
+        //_light2D = GetComponent<Light2D>();
 
         if (_grownUp)
         {
@@ -65,6 +68,7 @@ public class Slide_Tree : MonoBehaviour
         {
             _canActive = true;
             _fairyChangeColor.InTreeRange();
+            _light2D.enabled = true;
         }
     }
 
@@ -74,6 +78,7 @@ public class Slide_Tree : MonoBehaviour
         {
             _canActive = false;
             _fairyChangeColor.OutRange();
+            _light2D.enabled = false;
         }
     }
 }
