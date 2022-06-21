@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19044.1766; Version 2009; 64bit' Language: 'pt' Physical Memory: 16226 MB
+OS: 'Windows 10 Home Single Language; OS build 22000.739; Version 2009; 64bit' Language: 'pt' Physical Memory: 7967 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,96 +11,546 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7
+C:/Users/DanielCittius/Desktop/GitHub/Kada-Gatinho/Kada-EXP7
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57194
-Successfully changed project path to: C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7
-C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7
+56845
+Successfully changed project path to: C:/Users/DanielCittius/Desktop/GitHub/Kada-Gatinho/Kada-EXP7
+C:/Users/DanielCittius/Desktop/GitHub/Kada-Gatinho/Kada-EXP7
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/prisc/Documents/GitHub/Kada-Gatinho/Kada-EXP7/Assets
+[Subsystems] Discovering subsystems at path C:/Users/DanielCittius/Desktop/GitHub/Kada-Gatinho/Kada-EXP7/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
     Vendor:   
-    VRAM:     4019 MB
-    Driver:   30.0.15.1215
+    VRAM:     3962 MB
+    Driver:   30.0.15.1259
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001911 seconds.
+Registered in 0.004222 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.867 seconds
+- Completed reload, in  4.245 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006711 seconds.
+Registered in 0.020734 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000015C452E6830 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C414FA440 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C452E6830 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40B32950 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40E6DC00 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C46833050 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40FB6C00 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45CD1020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40D57010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40D6A220 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45267E30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45267E30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411AB2F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40D6A220 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45267E30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C455F1020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45267E30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45175C30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40E6DC00 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45267E30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411AB2F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C451AA430 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40B92BB0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411AB2F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45A65010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411AB2F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4692B060 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4540B010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411AB2F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4106C440 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C44F20080 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40E6DC00 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C44FAF010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4541B020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C454B3010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C454B3010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C457C0010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4549D030 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40DEB030 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40FB6C00 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4692C860 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C457C0010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45345C20 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40F1C010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C413EE980 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411AF300 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C457E6220 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
+- Completed reload, in  1.423 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3348 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.8 MB.
-System memory in use after: 144.9 MB.
+System memory in use before: 144.7 MB.
+System memory in use after: 144.8 MB.
 
 Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3791.
-Total: 2.672700 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.194600 ms MarkObjects: 2.079700 ms  DeleteObjects: 0.105400 ms)
+Total: 2.424100 ms (FindLiveObjects: 0.303300 ms CreateObjectMapping: 0.165000 ms MarkObjects: 1.857800 ms  DeleteObjects: 0.096900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Cenario/Itens
-  artifactKey: Guid(aad36ae48c9e7d24e8e721047646084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Cenario/Itens using Guid(aad36ae48c9e7d24e8e721047646084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7855f32be4b1d38b3145e4b520f0b189') in 0.009060 seconds
-  Import took 0.013829 seconds .
+  path: Assets/Prefabs/SlideStoneBridge.prefab
+  artifactKey: Guid(d09603f08f99e944fbb642b5b367b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlideStoneBridge.prefab using Guid(d09603f08f99e944fbb642b5b367b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc241ddc6fd494d15d5768d6c65134d') in 0.207402 seconds
+  Import took 0.214005 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.843012 seconds.
-  path: Assets/Sprites/Fadinha
-  artifactKey: Guid(48e01e53b5f4bd24a96b9483c75409a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Fadinha using Guid(48e01e53b5f4bd24a96b9483c75409a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2b2e19023b14c68956f5951825eac9') in 0.008942 seconds
-  Import took 0.014244 seconds .
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/Cenario/Itens/pontePedra.png
+  artifactKey: Guid(1eb5f912b2af70f45a8cbb748c887997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/pontePedra.png using Guid(1eb5f912b2af70f45a8cbb748c887997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4be11bd346a5cab54c8019967e1c98') in 0.037484 seconds
+  Import took 0.042989 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001006 seconds.
-  path: Assets/Sprites/Fadinha
-  artifactKey: Guid(48e01e53b5f4bd24a96b9483c75409a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Fadinha using Guid(48e01e53b5f4bd24a96b9483c75409a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2b2e19023b14c68956f5951825eac9') in 0.003814 seconds
-  Import took 0.010022 seconds .
+  Time since last request: 106.291292 seconds.
+  path: Assets/Prefabs/PlayerTrap.prefab
+  artifactKey: Guid(5760695aeb2abf14aba386572882d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerTrap.prefab using Guid(5760695aeb2abf14aba386572882d95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6a47595238f09c8231eddd22a3d61a') in 0.016933 seconds
+  Import took 0.026936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.725242 seconds.
-  path: Assets/Sprites/Kellas
-  artifactKey: Guid(eef8feb5dc55c9847b0e3de196f50fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Kellas using Guid(eef8feb5dc55c9847b0e3de196f50fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489c7f2d5041475a2d2affb983533246') in 0.008460 seconds
-  Import took 0.013761 seconds .
+  Time since last request: 0.317803 seconds.
+  path: Assets/Prefabs/SlideStoneBridge.prefab
+  artifactKey: Guid(d09603f08f99e944fbb642b5b367b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SlideStoneBridge.prefab using Guid(d09603f08f99e944fbb642b5b367b9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bbcfb733a6c124818b625141ce6f43') in 0.009931 seconds
+  Import took 0.015560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.131030 seconds.
+  path: Assets/Prefabs/TreeEssence.prefab
+  artifactKey: Guid(3af8164fdea46634e93ef7e35b210d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreeEssence.prefab using Guid(3af8164fdea46634e93ef7e35b210d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2077f5cb60549542a7504bb74a6beaf') in 0.011512 seconds
+  Import took 0.017506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.494208 seconds.
+  path: Assets/Prefabs/StoneEssence.prefab
+  artifactKey: Guid(e3b21012a18563a4c9035e91792a6086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StoneEssence.prefab using Guid(e3b21012a18563a4c9035e91792a6086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d85acfd53c9f44057b6ee15262e8744') in 0.009518 seconds
+  Import took 0.014886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.897078 seconds.
+  path: Assets/Prefabs/EnemyEssence.prefab
+  artifactKey: Guid(1d8cf0267d7a44d4691920fd1889a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyEssence.prefab using Guid(1d8cf0267d7a44d4691920fd1889a343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f47497478e974b0d9814519b7a648f8') in 0.009583 seconds
+  Import took 0.026407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.026770 seconds.
+  path: Assets/Sprites/Cenario/Itens/trapEnemy.png
+  artifactKey: Guid(cc924fb657d0be340b0e137910ca559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/trapEnemy.png using Guid(cc924fb657d0be340b0e137910ca559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fa4529d4587da74a3da546e6291002') in 0.010940 seconds
+  Import took 0.016953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Sprites/Cenario/Itens/trapEnemy.png
+  artifactKey: Guid(cc924fb657d0be340b0e137910ca559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/trapEnemy.png using Guid(cc924fb657d0be340b0e137910ca559e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fa4529d4587da74a3da546e6291002') in 0.008141 seconds
+  Import took 0.013048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.862400 seconds.
+  path: Assets/Prefabs/EnemyTrap.prefab
+  artifactKey: Guid(05bacaf4f3cd4cc4db7fcb84e417566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyTrap.prefab using Guid(05bacaf4f3cd4cc4db7fcb84e417566b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703c2cb20b37e7fa6f85b664e74ccba3') in 0.034964 seconds
+  Import took 0.040737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.416447 seconds.
+  path: Assets/Tiles/DeathZoneTileMap.asset
+  artifactKey: Guid(0ba93d5a3c428aa499a344bf1a873a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/DeathZoneTileMap.asset using Guid(0ba93d5a3c428aa499a344bf1a873a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116f483b6a21b3d7aacb95313845aa86') in 0.025499 seconds
+  Import took 0.033054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Sprites/Tilemap/DeathZone.png
+  artifactKey: Guid(81f71e17595488342a5b1a3ff70483be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/DeathZone.png using Guid(81f71e17595488342a5b1a3ff70483be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377574007470dcc34a6567c1f202a90c') in 0.013216 seconds
+  Import took 0.020299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.864684 seconds.
+  path: Assets/Sprites/Cenario/Itens/trapChao.png
+  artifactKey: Guid(50a1ace807e5aa04fa45a7f08107fc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/trapChao.png using Guid(50a1ace807e5aa04fa45a7f08107fc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0275a0321dd253d96349004e303c14b5') in 0.010323 seconds
+  Import took 0.016191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.867633 seconds.
+  path: Assets/Sprites/Cenario/Itens/plataforma.png
+  artifactKey: Guid(42fa5e9cc710cae42bed107cf75d00b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/plataforma.png using Guid(42fa5e9cc710cae42bed107cf75d00b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2803c787f3444585e9a983b7e997c3b2') in 0.014068 seconds
+  Import took 0.019285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.286541 seconds.
+  path: Assets/Prefabs/TreePlatform.prefab
+  artifactKey: Guid(eb229daa877bb5b47bdb9ff21422b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TreePlatform.prefab using Guid(eb229daa877bb5b47bdb9ff21422b168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b144bd0f1e0a3d1e39e947231031da5c') in 0.014689 seconds
+  Import took 0.019836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.960933 seconds.
+  path: Assets/Sprites/Tilemap/tileset.png
+  artifactKey: Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/tileset.png using Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed13422aa78a17a8b435a2e60a87ad') in 0.016515 seconds
+  Import took 0.021765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.668140 seconds.
+  path: Assets/Tiles/PlaceHolderTileMap.asset
+  artifactKey: Guid(323d75234abe53b4388b2047ce2c9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/PlaceHolderTileMap.asset using Guid(323d75234abe53b4388b2047ce2c9976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd68a27c910b8b71ff2a0b77a7d4f893') in 0.010458 seconds
+  Import took 0.016558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/Tilemap/SpriteSheetTest.png
+  artifactKey: Guid(0a067fde4e2844f45866e56f6465392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/SpriteSheetTest.png using Guid(0a067fde4e2844f45866e56f6465392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7804bceae9d443abed8c9e347c0dc30') in 0.065673 seconds
+  Import took 0.070535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001620 seconds.
+  path: Assets/Sprites/Tilemap/SpriteSheetTest.png
+  artifactKey: Guid(0a067fde4e2844f45866e56f6465392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/SpriteSheetTest.png using Guid(0a067fde4e2844f45866e56f6465392e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7804bceae9d443abed8c9e347c0dc30') in 0.020111 seconds
+  Import took 0.025290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.943563 seconds.
+  path: Assets/Sprites/Tilemap/tileset.png
+  artifactKey: Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/tileset.png using Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcea86535b9d99e84f743e863ce55692') in 0.008013 seconds
+  Import took 0.012996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.550394 seconds.
+  path: Assets/Sprites/Tilemap/tileset.png
+  artifactKey: Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/tileset.png using Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcc0920431ae43b3307a2f475587183') in 0.098718 seconds
+  Import took 0.103976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.404279 seconds.
+  path: Assets/Sprites/Tilemap/tileset.png
+  artifactKey: Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tilemap/tileset.png using Guid(910f586ae40efce49b94665d6d6b4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493e07ebddfb3d4851788f5ec300d80b') in 0.077000 seconds
+  Import took 0.082553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.731628 seconds.
+  path: Assets/Sprites/Cutes.otf
+  artifactKey: Guid(118aeb5eee2380d4289f54221f8dcadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cutes.otf using Guid(118aeb5eee2380d4289f54221f8dcadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293e428e021214a8f0c30354ccec328b') in 0.049229 seconds
+  Import took 0.055259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990453 seconds.
+  path: Assets/Sprites/luz.png
+  artifactKey: Guid(4b67f2af4c75ead40abb6399139d23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/luz.png using Guid(4b67f2af4c75ead40abb6399139d23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6855d3e465e0fdc4f51cccbbf16b14a6') in 0.011009 seconds
+  Import took 0.016997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 335.335083 seconds.
+  path: Assets/Sprites/Cenario/Parallax/ParallaxTerra.png
+  artifactKey: Guid(2011cb85b44567b4ebb6d6505016dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Parallax/ParallaxTerra.png using Guid(2011cb85b44567b4ebb6d6505016dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e8525b94c83d6297a3ac7116917d62') in 0.016229 seconds
+  Import took 0.022333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.809921 seconds.
+  path: Assets/Sprites/Cenario/Parallax/ParallaxMeio.png
+  artifactKey: Guid(dc0428b896b4883429e6649b9eff6f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Parallax/ParallaxMeio.png using Guid(dc0428b896b4883429e6649b9eff6f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dc7988b7fe9671b20ee1148190c064') in 0.012487 seconds
+  Import took 0.017740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.426515 seconds.
+  path: Assets/Sprites/Cenario/Parallax/ParallaxFrente.png
+  artifactKey: Guid(7550d9f87f2034b46af1ebc97c4e2070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Parallax/ParallaxFrente.png using Guid(7550d9f87f2034b46af1ebc97c4e2070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b12e80440bc89a4f5f2a4172e22e53') in 0.011456 seconds
+  Import took 0.016315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.569852 seconds.
+  path: Assets/Sprites/Cenario/Itens/tronco.png
+  artifactKey: Guid(8705d8e03b3dc2d49aa319869710d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/tronco.png using Guid(8705d8e03b3dc2d49aa319869710d286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6727d1ed6af152c99bf092f59cb6b66e') in 0.008657 seconds
+  Import took 0.026560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500837 seconds.
+  path: Assets/Sprites/Cenario/Itens/trapKellas.png
+  artifactKey: Guid(113f2a21b0368ff4a8e10eaaccbe0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/trapKellas.png using Guid(113f2a21b0368ff4a8e10eaaccbe0a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0c35a1215e4a342ea8b97f0be96ca8') in 0.019873 seconds
+  Import took 0.025870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547604 seconds.
+  path: Assets/Sprites/Cenario/Parallax
+  artifactKey: Guid(129c55c045145394997ceb370bce85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Parallax using Guid(129c55c045145394997ceb370bce85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3110630315a65fe83cf58511d467c049') in 0.002786 seconds
+  Import took 0.008318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.443962 seconds.
+  path: Assets/Sprites/Cenario/Itens/arvoreHorizontal.png
+  artifactKey: Guid(f4055237527c59747979ec0b8dec4b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Itens/arvoreHorizontal.png using Guid(f4055237527c59747979ec0b8dec4b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd13206bf505f6be4975e3cb3128a506') in 0.010122 seconds
+  Import took 0.014982 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030355 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000015C47298030 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4534C820 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4DDBD020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C463FF680 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C48869840 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C49E5B250 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4B16AB80 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4541B020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C412BC280 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40E603F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C416EC020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C416EC020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C463B5F10 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4DF01240 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C416EC020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4501F010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C411B1C40 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4DDBD020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C48869840 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C416EC020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40F2AA60 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C49E3D010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4D9E4B30 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40F2AA60 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C455F1020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C457F9420 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4534E480 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C45279D20 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C457F9420 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C412983F0 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40E70330 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C48869840 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C44FAF010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40D57010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C416EC020 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40D57010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C40D57010 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C49E51A20 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4E159880 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4B16AF60 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4534F480 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C450C3830 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4DF01240 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4103DC20 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C4D80CF70 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C48869840 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000015C450E9A40 doesn't match image C:\Users\DanielCittius\Desktop\GitHub\Kada-Gatinho\Kada-EXP7\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3236 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.2 MB.
+System memory in use after: 143.4 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3897.
+Total: 11.304700 ms (FindLiveObjects: 1.015200 ms CreateObjectMapping: 0.392400 ms MarkObjects: 9.355100 ms  DeleteObjects: 0.540400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2544.517837 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(ca9b5ada1bf25d848b6592ab71128ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(ca9b5ada1bf25d848b6592ab71128ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e2371f7321dd6f511fc42874f3822') in 0.068453 seconds
+  Import took 0.074879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.039404 seconds.
+  path: Assets/Sprites/Telas/kellasLogo.png
+  artifactKey: Guid(de50f31ec49b56f47a99e69b7b65cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Telas/kellasLogo.png using Guid(de50f31ec49b56f47a99e69b7b65cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad9dd720affcd16657c659036a95bd9') in 0.053943 seconds
+  Import took 0.059342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.315636 seconds.
+  path: Assets/Sprites/Cenario/Parallax/ParallaxFundo.png
+  artifactKey: Guid(b75a32dfdf000594bba31e7e35ab6771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cenario/Parallax/ParallaxFundo.png using Guid(b75a32dfdf000594bba31e7e35ab6771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0b2e3c4f2c7912bbe1a17e98a92205') in 0.012168 seconds
+  Import took 0.017212 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
