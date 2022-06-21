@@ -1,3 +1,6 @@
+using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
 using Player;
 using UnityEngine;
 
@@ -7,6 +10,12 @@ namespace Enemies
     {
         private PlayerTrap _playerTrap;
         private EnemyPatrol _enemyPatrol;
+        
+        private Vector2 _startPos;
+        private Collider2D _col;
+        private Animator _animator;
+        private Vector3 target;
+        
         void Start()
         {
             _playerTrap = transform.GetComponentInParent<PlayerTrap>();
@@ -34,6 +43,8 @@ namespace Enemies
             if (_enemyPatrol != null)
             {
                 _enemyPatrol.enabled = false;
+                transform.DOMove(new Vector3(transform.position.x, transform.position.y + 1, transform.position.z),
+                    0.5f);
             }
         }
     }
